@@ -1,0 +1,12 @@
+#!/bin/bash
+if [ $# -ne 1 ];then
+	echo \$1: a für activate
+	echo \$1: d für deactivate
+elif [ "$1" == s ];then
+    source venv-card/bin/activate
+elif [ "$1" == b ]; then
+    deactivate
+else
+	echo falscher Parameter
+fi
+exit 0
