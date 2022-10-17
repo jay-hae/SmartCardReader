@@ -15,5 +15,4 @@ smartcard.pcsc.PCSCExceptions.EstablishContextException: Failed to establish con
 * Installieren von PC/SC Drivers von https://www.acs.com.hk/en/products/403/acr1255u-j1-acs-secure-bluetooth%C2%AE-nfc-reader/
 * dafür noch libusb mit "sudo apt-get install libusb-1.0-0-dev"
 * -> hat auch nicht Funktioniert
-
-
+* scheint als würde pcscd deamon fehlen -> sudo apt install pcscd!!! Das hats gelöst
